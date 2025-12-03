@@ -238,14 +238,4 @@ README.md
 * Admin features documented ✔
 * Development starting with Home page ✔
 
----
 
-If you want, I can also prepare:
-
-✅ Professional Home Page content
-✅ About Us content
-✅ Menu layout structure
-✅ UI mockup
-✅ Full website content writing
-
-Just tell me!
