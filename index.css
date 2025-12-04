@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+#nav{
+    height: 100px;
+    width: 100vw;
+    background-color: rgba(79, 2, 2, 0.444);
+    /* opacity: 40%; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    position: fixed;
+    gap: 50px;
+    /* border: 2px solid white; */
+    
+}
+#logo{
+    height: 100%;
+    display: flex;
+    opacity: 100%;
+    object-fit: cover;
+    margin-left: 150px;
+    border: 2px solid white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+#navContents{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid white; */
+}
+#navContents a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    
+}
+#Reservations{
+    height: 50px;
+    width: 150px;
+    align-self: center;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+}
+#home{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-image: url(https://t4.ftcdn.net/jpg/13/88/72/25/360_F_1388722563_XmshYfAzk1If9DMt7mV5Ql18DsCWb1qq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#homeContent{
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 550px;
+    width: 600px;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.532);
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 150px;
+    padding: 20px 20px;
+    box-shadow: 5px 5px 10px rgb(145, 143, 143);
+    /* border: 2px solid white; */
+}
+#homeContent h1{
+    font-size: 2em;
+    color: crimson;
+}
+#homeContent h2{
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+#homeContent p{
+    margin-top: 20px;
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 100px;
+    line-height: 30px;
+    font-weight: 300;
+}
