@@ -1,4 +1,54 @@
-
+.containernav{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+#nav{
+    height: 100px;
+    width: 100vw;
+    background-color: rgba(79, 2, 2, 0.444);
+    /* opacity: 40%; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    position: fixed;
+    gap: 50px;
+    /* border: 2px solid white; */
+    
+}
+#logo{
+    height: 100%;
+    display: flex;
+    opacity: 100%;
+    object-fit: cover;
+    margin-left: 150px;
+    border: 2px solid white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+#navContents{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid white; */
+}
+#navContents a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    
+}
+#Reservations{
+    height: 50px;
+    width: 150px;
+    align-self: center;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+}
       .con1img img {
         width: 100%;
         height: 600px;
@@ -15,7 +65,7 @@
         left: 47%;
         text-align: center;
         translate: -30px -350px;
-        color: rgb(255, 119, 119);
+        color: rgb(255, 26, 72);
         font-family: Georgia, serif;
         font-size: 40px;
       }
@@ -32,6 +82,7 @@
       }
      body{
         background-color: rgb(255, 242, 242);
+         font-family: Georgia, serif;
      }
 
       .abouttext{
@@ -40,7 +91,7 @@
       .abouttext h1 {
         margin-top: 70px;
         margin-left: 120px;
-        color: rgb(254, 107, 107);
+        color: crimson;
         
       }
       .abouttext p {
@@ -56,7 +107,7 @@
         border-radius: 50%;
         margin-top: 50px;
         margin-right: 100px;
-        border: 7px solid rgb(0, 0, 0);
+        border: 5px solid crimson;
         
       }
 
@@ -76,7 +127,7 @@
      }
 
     .con3text h1{
-        color: rgb(254, 107, 107);
+        color: crimson;
         margin-bottom: 20px;
      }
 
@@ -91,16 +142,16 @@
         display: flex;
         justify-content: center;
         gap: 50px;
-        
         margin-bottom: 100px;
-        
+       
      }
      .card1{
         height: 400px;
         width: 400px;
         background-color: white;
-        
-        border-radius: 10px;
+         border-radius: 30px;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+       
         
      }
 
@@ -108,8 +159,8 @@
         height: 400px;
         width: 400px;
         background-color: white;
-      
-        border-radius: 10px;
+         border-radius: 30px;
+         box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
         
      }
 
@@ -117,38 +168,85 @@
         height: 400px;
         width: 400px;
         background-color: white;
-        
-        border-radius: 10px;
+        border-radius: 30px;
+         box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
         
      }
 
     .card1:hover{
         height: 400px;
         width: 400px;
-        background-color: rgb(81, 0, 90);
+       background-color: rgb(95, 0, 0);
          color: white;
-        border-radius: 10px;
+        border-radius: 30px;
+
         
      }
 
-         .card2:hover{
+   .card2:hover{
         height: 400px;
         width: 400px;
-        background-color: rgb(81, 0, 90);
+        background-color: rgb(95, 0, 0);
+        fill: white;
        color: white;
-        border-radius: 10px;
+
+         border-radius: 30px;
         
      }
 
     .card3:hover{
         height: 400px;
         width: 400px;
-        background-color: rgb(81, 0, 90);
+        background-color: rgb(95, 0, 0);
         color: white;
-        border-radius: 10px;
+         border-radius: 30px;
         
      }
 
      .bulbicon svg{
-        height: 100px;
+        height: 40px;
+        width: 40px;
+        margin-top: 50px;
+        margin-left:175px;
+
+      
+     }
+
+          .bulbicon h2{
+         margin-top: 30px;
+          margin-left:153px;
+          
+       
+      
+     }
+               .bulbicon p{
+         margin-top: 10px;
+         width: 75%; 
+         text-align: center;
+         margin-left:50px; 
+     }
+
+
+     
+     .sunicon svg{
+        height: 40px;
+        width: 40px;
+        margin-top: 50px;
+        margin-left:175px;
+
+      
+     }
+               .sunicon h2{
+         margin-top: 30px;
+          margin-left:125px;
+         
+       
+      
+     }
+
+                    .sunicon p{
+         margin-top: 10px;
+         width: 75%; 
+         text-align: center;
+         margin-left:50px; 
      }
