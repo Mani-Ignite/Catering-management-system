@@ -25,10 +25,8 @@ html{
     height: 80px;
     width: 100vw;
     background-color: rgba(79, 2, 2, 0.444);
-    /* opacity: 40%; */
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     position: fixed;
     gap: 50px;
     /* border: 2px solid white; */
@@ -41,7 +39,7 @@ html{
     object-fit: cover;
     margin-left: 150px;
     align-self: center;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     overflow: hidden;
     border-radius: 10px;
 }
@@ -58,8 +56,14 @@ html{
     color: white;
     font-size: 1.2em;
 }
+#nav button{
+    justify-self: end;
+}
 #reservations{
     align-self: center;
+    /* display: flex; */
+    justify-self: end;
+    /* border: 2px solid black; */
 }
 .buttons{
     border-radius: 10px;
@@ -178,7 +182,8 @@ html{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-image: url(https://w7.pngwing.com/pngs/537/498/png-transparent-red-textured-background-vintage-continental-red-retro-continental.png);
+    background-color: rgba(220, 20, 60, 0.793);
+    /* background-image: url(https://w7.pngwing.com/pngs/537/498/png-transparent-red-textured-background-vintage-continental-red-retro-continental.png); */
     background-size: cover;
     color: bisque;
     /* border: 2px solid black; */
@@ -340,10 +345,180 @@ html{
 }
 
 
+/* Forms */
+#forms{
+    background-color: bisque;
+    display: flex;
+    margin: 30px;
+    padding: 30px;
+    gap: 10px;
+    background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20210723050322/Lineargradient2-660x322.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    
+}
+#formSection{
+    padding: 20px;
+}
+#form form button{
+    /* justify-self: center; */
+    margin-top: 10px;
+    align-self: center;
+}
+#formSection h1{
+    font-size: 3rem;
+    color: crimson;
+    margin-bottom: 20px;
+}
+#formSection h3{
+    font-size: 2rem;
+    color: bisque;
+    /* text-decoration: underline; */
+    margin-bottom: 20px;
+}
+#formSection p{
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 50px;
+}
+#formSection hr{
+    font-size: 1.5rem;
+    width: 50%;
+    justify-self: center;
+    margin-bottom: 50px;
+}
+#call{
+    color: white;
+}
+#email{
+    color: white;
+}
+#callTopic{
+    color: crimson;
+    text-decoration: none;
+}
+#emailTopic{
+    color: crimson;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+#formDetails{
+    display: flex;
+    flex-direction: column;
+}
+#formDetails h1{
+    color:black;
+    margin-bottom: 20px;
+}
+#formDetails h2{
+    color:white;
+}
+
+
+#form form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+}
+#form form input{
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
 /* footer */
 footer{
-    height: 600px;
     /* background-image: url(https://images.pexels.com/photos/139312/pexels-photo-139312.jpeg?cs=srgb&dl=pexels-fwstudio-33348-139312.jpg&fm=jpg); */
-    background-color: rgba(247, 30, 73, 0.714);
+    /* background-image: url(https://www.codewithrandom.com/wp-content/uploads/2022/11/15-Bootstrap-login-forms32.png); */
+    display: flex;
+    background-image: url(https://w7.pngwing.com/pngs/537/498/png-transparent-red-textured-background-vintage-continental-red-retro-continental.png);
     background-size: cover;
+    color: white;
+    padding: 30px;
+    justify-content: space-around;
+    
+}
+#makeContact{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* border: 2px solid white; */
+}
+#loc{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* border: 2px solid white; */
+}
+.infocard{
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.infocard img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#makeContact h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+#makeContact h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+#makeContact h5{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+
+
+
+#loc h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+#loc h5{
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+
+
+/* Logos */
+#callLogo{
+    color: green;
+}
+#mailLogo{
+    color: cyan;
 }
