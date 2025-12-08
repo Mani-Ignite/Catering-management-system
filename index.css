@@ -3,34 +3,33 @@
   font-weight: 400;
   font-style: normal;
 }
-html{
+html,body{
     font-size: 16px;
+    width: 100vw;
+    overflow-x: hidden;
 }
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
-    
 }
 .container{
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
+    width: 100%;
+    
     background-color: bisque;
     /* background-image: url(https://allpngfree.com/apf-prod-storage-api/storage/thumbnails/banner-editing-flower-balck-png-images-thumbnail-1649315317.jpg); */
     /* background-repeat: space; */
 }
 #nav{
     height: 80px;
-    width: 100vw;
+    width: 100%;
     background-color: rgba(79, 2, 2, 0.444);
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: fixed;
     padding: 0px 30px;
     justify-content: space-around;
-    /* gap: 50px; */
     /* border: 2px solid white; */
 }
 #logo{
@@ -355,6 +354,7 @@ html{
     gap: 10px;
     /* background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20210723050322/Lineargradient2-660x322.png); */
     /* background-color: rgba(2, 158, 179, 0.977); */
+    background-color:rgb(185, 185, 185);
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
@@ -363,19 +363,22 @@ html{
 #formSection{
     padding: 20px;
 }
+#form form label{
+    color: black;
+}
 #form form button{
     /* justify-self: center; */
     margin-top: 10px;
-    align-self: center;
+    align-self: center; 
 }
 #formSection h1{
     font-size: 3rem;
-    color: bisque;
+    color: black;
     margin-bottom: 20px;
 }
 #formSection h3{
     font-size: 2rem;
-    color: bisque;
+    color: black;
     /* text-decoration: underline; */
     margin-bottom: 20px;
 }
@@ -462,21 +465,23 @@ footer{
     display: flex;
     flex-direction: column;
     width: 30%;
+    padding-top: 30px;
     /* flex-wrap: wrap; */
-    justify-content: center;
+    /* justify-content: center; */
     /* border: 2px solid white; */
 }
 #loc{
     display: flex;
     flex-direction: column;
     width: 30%;
+     padding-top: 30px;
     /* flex-wrap: wrap; */
-    justify-content: center;
+    /* justify-content: center; */
     /* border: 2px solid white; */
 }
 .infocard{
     height: 100%;
-    width: 30%;
+    width: 15%;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -492,11 +497,11 @@ footer{
 
 #makeContact h1{
     color: bisque;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 30px;
 }
 #makeContact h2{
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-bottom: 20px;
 }
 #makeContact h5{
@@ -509,7 +514,7 @@ footer{
 
 #loc h1{
     color: bisque;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 30px;
 }
 #loc h5{
@@ -525,4 +530,20 @@ footer{
 }
 #mailLogo{
     color: cyan;
+}
+
+
+
+
+/* ignite */
+#igniteDiv{
+    background-color: black;
+    padding: 15px 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#igniteDiv a{
+    /* text-decoration: none; */
+    color: white;
 }
