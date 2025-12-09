@@ -57,12 +57,13 @@
       }
       * {
         margin: 0;
+        font-family: sans-serif;
         padding: 0;
       }
       .text h1 {
         position: absolute;
         top: 70%;
-        left: 47%;
+        left: 47%; 
         text-align: center;
         translate: -30px -350px;
         color: rgb(255, 26, 72);
@@ -74,6 +75,8 @@
         top: 80%;
         left: 22%;
         text-align: center;
+        justify-self: center;
+        align-self: center;
         translate: -30px -350px;
         color: white;
         font-size: 25px;
@@ -307,6 +310,8 @@
     color: bisque;
     text-align: left;
     margin-top: 92px;
+            /* justify-self: center;
+        align-self: center; */
 }
 #footer img{
 height: 300px;
